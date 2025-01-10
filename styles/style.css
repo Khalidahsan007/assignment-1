@@ -3,6 +3,10 @@
     font-style: normal;
 }
 
+body{
+    background-color: #F1F1F3;
+}
+
 /* hero-section */
 
 .hero{
@@ -184,3 +188,36 @@ background: rgb(255, 194, 57);
 border: none;
 }
 
+/* recent-news */
+
+.recent-news{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+   
+.satelite-container-one{
+    display: flex;
+    align-items: stretch;
+    gap: 32px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 48px;
+    margin-bottom: 24px;
+   
+}
+
+.satelite-img > img{
+   border-radius: 24px;
+   width: 408px;
+   height: 306px;
+
+}
+
+.satelite-container-one{
+    display: flex;
+}
+
+.time{
+    margin-left: 20px;
+}
