@@ -3,21 +3,21 @@
     font-style: normal;
 }
 
-/* Hero-Section */
+/* hero-section */
 
 .hero{
     display: flex;
     border-radius: 24px;
     background: rgb(198, 228, 214);
     padding: 80px 100px 80px 100px;
-    width: 1280px;
+    /* width: 1280px; */
     height: 560px;
-    margin-left: 180px;
+    margin-left: 160px;
     margin-top: 120px;
     margin-right: 160px;
     margin-bottom: 80px ;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center; 
 }
 
 .btn-primary{
@@ -68,3 +68,119 @@ line-height: 67px;
 letter-spacing: 0%;
 text-align: left;
 }
+
+/* vision-section */
+.caption{
+
+color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.visions{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 32px;
+}
+
+.visions h3{
+    /* margin-left: 160px; */
+}
+
+.visions .description{
+    /* margin-left: 160px; */
+}
+
+.description{
+ color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.vision-container{
+    display: flex;
+    gap: 24px;
+    /* margin-left: 160px; */
+    /* margin-right: 160px; */
+}
+
+.vision-description{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+
+
+.box-one{
+padding: 32px;
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+}
+
+.box-two{
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.box-three{
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.vision-btn-one{
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+padding: 11px 20px 11px 20px;
+border-radius: 8px;
+background: rgb(84, 144, 245);
+border: none;
+}
+
+
+.vision-btn-two{
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+padding: 11px 20px 11px 20px;
+border-radius: 8px;
+background: rgb(9, 161, 92);
+border: none;
+}
+
+.vision-btn-three{
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+padding: 11px 20px 11px 20px;
+border-radius: 8px;
+background: rgb(255, 194, 57);
+border: none;
+}
+
